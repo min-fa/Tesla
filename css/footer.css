@@ -1,0 +1,53 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.footer ul {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.footer ul li a {
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.company-info {
+  width: 77%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.company-info p {
+  font-size: 1rem;
+  font-weight: 200;
+  color: whitesmoke;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.company-info .info {
+  color: whitesmoke;
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+.company-info .info:hover {
+  text-decoration-thickness: 2px;
+}
